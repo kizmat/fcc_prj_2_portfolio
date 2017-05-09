@@ -1,7 +1,7 @@
 <!-- todo
-1 fix navbar highlights
-2 add contact form
-3 add project preview  -->
+ fix navbar highlights
+ add project preview
+resize portfolio thumbnail -->
 
 <!DOCTYPE html>
 <html>
@@ -37,6 +37,8 @@
 </head>
 
 <body>
+  <div class="bg bgShader">
+    <!-- <div class="bgShader"> -->
   <span id="s-about"></span>
   <!-- NavBar -->
   <nav class="navbar navbar-default navbar-fixed-top">
@@ -74,8 +76,8 @@
 
   <!--        Content -->
 
-  <div class="container jumbotron" id="topContainer">
-
+  <div class="container layer topContainer" id="topContainer">
+<!-- <h1>Who am I?</h1> -->
     <img src="images/kizmat.jpeg" alt="Kizmat smiling" class="img-responsive gallerytn">
 
 
@@ -86,10 +88,10 @@
 
   </div>
 
-  <div class="container jumbotron" id="s-portfolio">
+  <div class="container layer layer" id="s-portfolio" >
     <div class="row">
 
-      <h1> Portfolio</h1>
+      <h1>Portfolio</h1>
 
     </div>
 
@@ -129,38 +131,69 @@
 
   </div>
 
-  <div class="container" id="s-contact">
+  <div class="container layer" id="s-contact">
 
     <div class="row">
-      <h1>  Lets get in touch!</h4>
+    <h1>  <i class="fa fa-user-circle centerMe"> </i>  Lets get in touch</h1>
+
+  </div>
+
+    <script language="JavaScript">
+var username = "sales";
+var hostname = "tribe9.com";
+var linktext = username + "@" + hostname ;
+document.write("<a href='" + "mail" + "to:" + username + "@" + hostname + "'>" + linktext + "</a>");
+</script>
+
+
+
+
+
+  <!-- <form>
+    <div class="form-group input-group">
+       <span class="input-group-addon">
+         <i class="glyphicon glyphicon-user"></i></span><input type="email" class="form-control" id="email" placeholder="Enter email">
+    </div>
+
+    <div class="form-group input-group">
+      <span class="input-group-addon">
+      <i class="glyphicon glyphicon-pencil"></i></span><textarea type="text-area" class="form-control" id="message" placeholder="Type your message here"></textarea>
+    </div>
+
+    <div class="form-group input-group">
+      <span class="input-group-addon">
+      <i class="glyphicon glyphicon-pencil"></i></span><input type="tel" class="form-control" id="mobile" placeholder="mobile #"></textarea>
+    </div>
+
+    <div class="form-group input-group">
+      <span class="input-group-addon">
+      <i class="glyphicon glyphicon-pencil"></i></span><input type="tel" class="form-control" id="landline" placeholder="landline #"></textarea>
+    </div>
+
+    <button type="submit" class="btn btn-default">Submit</button>
+  </form>
+ -->
+
     </div>
 
 
+  <div class="footer container-fluid container layer" id="s-contact">
 
-      </div>
-
-
-
-
-
-
-
-  <div class="footer container ">
-<div class="row">
-  <h3> Find me on</h3>
+  <div class="row">
+    <h1> Find me on</h1>
+  </div>
     <ul class="list-inline">
       <li>  <a href="http://github.com/kizmat/" target="_blank" class="social" class="social"><i class="fa fa-2x fa-github" aria-hidden="true"></i></a></li>
   <li><a href="http://codepen.io/kizmat" target="_blank" class="social"><i class="fa fa-2x fa-codepen" aria-hidden="true"></i></a></li>
-  <!-- </ul> -->
-  <!-- </div>
-  <div class="col-xs-12 col-sm-6"> -->
-  <!-- <ul class="list-inline"> -->
   <li>  <a href="https://www.freecodecamp.com/kizmat" target="_blank" class="social"><i class="fa fa-2x fa-free-code-camp" aria-hidden="true"></i> </a></li>
-  <li>  <a href="http://kizmet.tech" target="_blank" class="social"> <i class="fa fa-2x fa-wordpress" aria-hidden="false"></i></li>
+  <li>  <a href="http://kizmet.tech" target="_blank" class="social"> <i class="fa fa-2x fa-wordpress" aria-hidden="false"></i></a></li>
   </ul>
-</div>
+<!-- Tribe9 &copy 2017 -->
 
   </div>
+</div>
+
+
 </body>
 
 

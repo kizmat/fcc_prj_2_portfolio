@@ -4,33 +4,64 @@
     float: left;
 }
 
+.bg{
+  background-image: url(images/tree.jpeg);
+  /* Full height */
+   height: 100%;
+
+
+   /* Center and scale the image nicely */
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.topContainer{
+margin-top: 40px;
+padding-top: 40px;
+margin-bottom: 40px;
+}
+
+.layer{
+  background-color: rgba(231,231,231, 0.7);
+  border-radius: 8px;
+  max-width: 800px;
+  font-size: 2em;
+  margin-bottom: 40px;
+
+}
+
+.bgShader{
+    background-color: rgba(0, 0, 0, 0.0);
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
 .navborder{
-  box-shadow: 0px 13px 13px 0px rgba(0,0,0,0.67);
+  box-shadow: 0px 13px 13px 0px rgba(0,0,0,0.7);
 }
 
-#topContainer{
-margin-top: 60px;
-}
 
-.jumbotron{
-    border-radius: 8px;
-    font-size: 2em;
-}
 
 .gallerytn{
-    border-radius: 50%;
+    border-radius: 25%;
     max-height: 189px;
-        margin: auto;
-
+    margin: auto;
+    border: 2px solid white;
     margin-bottom: 15px;
+
 }
 
 .portfolio{
     padding: 20px;
 }
 
-h1{
+.white{
     text-align: center;
+    color: white;
 }
 
 .fa{
@@ -45,8 +76,15 @@ h1{
 }
 
 .social{
-    margin-right: 50px;
+    margin-right: 1px;
 }
+
+p, h1, i{
+  float: left;
+  padding: 5px 10px;
+}
+
+
 
 /*div{
   border: .1em solid red;
